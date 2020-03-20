@@ -36,12 +36,13 @@ namespace C.Net_learning
             {
                 Console.WriteLine("Please enter the password");
                 password = Console.ReadLine();
-                if (password == "secret")
+                if (password != "secret")
                 {
-                    Console.WriteLine("Password is correct");
+                    Console.WriteLine("The password is incorrect");
                 }
-                else Console.WriteLine("The password is incorrect");
+                    
             }
+            Console.WriteLine("Password is correct");
 
         }
     }
