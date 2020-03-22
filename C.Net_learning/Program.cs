@@ -40,9 +40,30 @@ namespace C.Net_learning
                 {
                     Console.WriteLine("The password is incorrect");
                 }
-                    
+
             }
             Console.WriteLine("Password is correct");
+
+
+
+            for (int count = 1; count <= 10; count++)
+            {
+                Console.WriteLine("Count: {0}", count);
+            }
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 1; j <= 10; j++)
+                {
+                    Console.WriteLine(j);
+
+                }
+                for (int k = 9; k >= 1; k--)
+                {
+                    Console.WriteLine(k);
+                }
+            }
 
         }
     }
